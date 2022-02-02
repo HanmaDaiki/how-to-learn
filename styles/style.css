@@ -151,6 +151,7 @@
 }
 
 .section-subtitle {
+  margin: 20px 0 0 0;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -254,7 +255,17 @@
 
 .kaufman {
   flex-wrap: wrap;
+  position: relative;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   background-color: #000; 
+}
+
+.kaufman__triangle {
+  background-image: url(../images//kaufman-triangle.svg);
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
 }
