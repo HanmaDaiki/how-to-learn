@@ -2,17 +2,16 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+  padding: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .header {
-  margin: 0;
-  padding: 0;
+  position: relative;
   width: 100%;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  position: relative;
   overflow: hidden;
   display: flex;
   background-color: #f2f2f2;
@@ -38,6 +37,7 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
+  font-weight: normal;
 }
 
 .header__link{
@@ -60,8 +60,8 @@
 
 .header__square-pic {
   position: absolute;
-  right: 0;
   top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
   box-sizing: border-box;
@@ -73,11 +73,11 @@
 }
 
 .logo_place_header {
-  height: 32px;
-  z-index: 2;
+  position: absolute;
   top: 30px;
   left: 64px;
-  position: absolute;
+  height: 32px;
+  z-index: 2;
   background-image: url(../images/logo_place_header.svg);
 }
 
@@ -100,9 +100,9 @@
 }
 
 .two-columns__brief {
-  font-weight: normal;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
   color: #2f80ed;
   width: 175px;
 }
@@ -192,9 +192,15 @@
 }
 
 .table__heading{
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+}
+
+.table__heading_theme_dark {
+  color: white
 }
 
 .table__text {
