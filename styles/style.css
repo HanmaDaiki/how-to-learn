@@ -1,8 +1,3 @@
-h1, h2, h3, p {
-  margin: 0;
-  padding: 0;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -18,20 +13,20 @@ h1, h2, h3, p {
   min-height: 600px;
   max-height: 756px;
   overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
   display: flex;
   background-color: #f2f2f2;
 }
 
 .header__title {
   z-index: 2;
-  width: 730px;
-  display: flex;
-  align-items: center;
-  justify-content: left;
+  max-width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   margin: 0 0 0 64px;
+  box-sizing: border-box;
 }
 
 .header__subtitle{
@@ -43,6 +38,8 @@ h1, h2, h3, p {
   bottom: 30px;
   left: 64px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .header__link{
@@ -57,10 +54,7 @@ h1, h2, h3, p {
   right: 0;
   width: 765px;
   height: 608px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../images/header-image.png);
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -105,6 +99,8 @@ h1, h2, h3, p {
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -120,12 +116,12 @@ h1, h2, h3, p {
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .two-columns__span-accent {
   font-weight: bold;
-  line-height: 34px;
-  font-size: 24px;
 }
 
 
@@ -151,10 +147,10 @@ h1, h2, h3, p {
 }
 
 .section-title_theme_dark{
-  color: white;
+  color: #fff;
   position: relative;
   z-index: 1;
-  margin: 90px 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 .section-subtitle {
@@ -164,10 +160,12 @@ h1, h2, h3, p {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .section-subtitle_theme_dark {
-  color: white;
+  color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -183,7 +181,7 @@ h1, h2, h3, p {
 .table_theme_dark {
   position: relative;
   z-index: 1;
-  margin: 0 auto 90px;
+  margin: 0 auto;
 }
 
 .table__cell {
@@ -200,7 +198,7 @@ h1, h2, h3, p {
 }
 
 .table__heading_theme_dark {
-  color: white;
+  color: #fff;
 }
 
 .table__text {
@@ -222,14 +220,15 @@ h1, h2, h3, p {
   margin: 0;
   padding: 0;
   position: relative;
-  overflow: hidden;
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
+  padding: 100px 0 0 0;
+  box-sizing: border-box;
 }
 
 .feynman__title {
   text-align: center;
-  margin: 100px auto 0;
+  margin: 0 auto;
   position: relative;
   z-index: 1;
   width: 648px;
@@ -246,6 +245,8 @@ h1, h2, h3, p {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin: 70px 0 0 0;
+  padding: 0;
 }
 
 .feynman__link{
@@ -265,7 +266,8 @@ h1, h2, h3, p {
   position: relative;
   overflow: hidden;
   justify-content: center;
-  background-color: #000; 
+  background-color: #1f1f1f;
+  padding: 90px 0 90px 0;
 }
 
 .kaufman__triangle {
@@ -275,6 +277,7 @@ h1, h2, h3, p {
   height: 877px;
   position: absolute;
   right: -210px;
+  top: 0;
 }
 
 .footer {
@@ -282,14 +285,14 @@ h1, h2, h3, p {
   display: flex;
   justify-content: center;
   min-height: 350px;
-  background-color: black;
+  background-color: #1f1f1f;
+  padding: 60px 0 40px 0;
 }
 
 .footer__columns {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  padding: 60px 0 40px 0;
 }
 
 .footer__column {
@@ -302,25 +305,37 @@ h1, h2, h3, p {
   justify-content: space-between;
 }
 
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  line-height: 30px;
+}
+
 .footer__column-links {
   display: flex;
   flex-direction: column;
   margin: 0 0 16px 0;
+  padding: 0;
+  list-style: none;
 }
 
 .footer__column-link {
   line-height: 30px;
-  font-style: 18px;
+  font-size: 18px;
   font-weight: normal;
-  color: white;
+  color: #fff;
   text-decoration: none;
-}
-
-.footer__column-heading {
-  margin: 0 0 20px 0;
-  font-weight: bold;
-  line-height: 30px;
-  font-style: 18px;
 }
 
 .footer__author {
@@ -328,9 +343,11 @@ h1, h2, h3, p {
   line-height: 25px;
   font-weight: normal;
   margin: 18px 0;
+  padding: 0;
 }
 
 .footer__social-icon{
+  margin: 0 10px 0 0;
   width: 16px;
   height: 16px;
 }
