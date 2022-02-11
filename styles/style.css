@@ -280,6 +280,7 @@
 }
 
 .footer {
+  box-sizing: border-box;
   color: white;
   display: flex;
   justify-content: center;
