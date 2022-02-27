@@ -1,5 +1,6 @@
 .cards {
   width: 920px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, 240px);
+  justify-content: space-between;
 }
