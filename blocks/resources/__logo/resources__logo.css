@@ -9,3 +9,7 @@
   height: 38px;
   float: left;
 }
+
+.resources__logo:hover{
+  background-color: rgba(0, 0, 0, 0.04);
+}
