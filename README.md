@@ -10,7 +10,7 @@
 # Как запустить
 
 ```
-$ git clone https://github.com/HanmaDaiki/redux-workout
+$ git clone https://github.com/HanmaDaiki/how-to-learn
 ```
 
 Открыть index.html в браузере. 
