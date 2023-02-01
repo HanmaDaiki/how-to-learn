@@ -20,6 +20,8 @@ $ cd how-to-learn
 
 Открыть index.html в браузере.
 
-## GitHub Pages
+## DEMO
 
-https://hanmadaiki.github.io/how-to-learn/
+[GitHub Pages](https://hanmadaiki.github.io/how-to-learn/)
+
+<img src="https://github.com/HanmaDaiki/how-to-learn/blob/main/DEMO.gif" />
