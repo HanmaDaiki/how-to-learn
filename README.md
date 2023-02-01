@@ -23,4 +23,3 @@ $ cd how-to-learn
 ## GitHub Pages
 
 https://hanmadaiki.github.io/how-to-learn/
-
