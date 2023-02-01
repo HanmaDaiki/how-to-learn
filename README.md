@@ -22,5 +22,5 @@ $ cd how-to-learn
 
 ## GitHub Pages
 
-https://hanmadaiki.github.io/portfolio-site-spa/
+https://hanmadaiki.github.io/how-to-learn/
 
