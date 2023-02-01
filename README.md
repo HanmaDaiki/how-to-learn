@@ -20,6 +20,10 @@ $ cd how-to-learn
 
 Открыть index.html в браузере.
 
+## Статус Проекта
+
+Завершён!
+
 ## DEMO
 
 [GitHub Pages](https://hanmadaiki.github.io/how-to-learn/)
